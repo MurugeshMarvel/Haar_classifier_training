@@ -1,2 +1,4 @@
 # Haar_classifier_training
-This repository provides a description and working codes for training a Haar Classifiers
+<H1>Haar_Classifier Trainer</H1>
+<H6>Steps to be followed</H6>
+
