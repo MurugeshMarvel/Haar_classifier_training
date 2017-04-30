@@ -20,7 +20,7 @@
 <li><H5>Clone this repository<H5>
 </li>
 </ol>
-```bash
+```
 git clone https://github.com/MurugeshMarvel/Haar_classifier_training.git
 ```
 
