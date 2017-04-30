@@ -11,7 +11,17 @@
 <p>Images which you want to detect. Crop exactly the image portion in the pictures. Better collect more than 50 images minimum in the same size not exceeding 100x100</p></H5></li>
 <li><H5>Negative Images</H5>
 <p>Images that doesn't contain the image you want to detect, best collected the normal pictures of the surronding where you want to install this system. Collect more than 200 images of same size which would be more than 640x320</p></H5></li>
-<H3>Steps to be followed</H3>
 
+</ol>
+<H3>Steps to be followed</H3>
+<ol>
+<li><H5>Install OpenCV</H5>
+<p> <a href="http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html">Guide to Install OpenCV></a></p>
+<li><H5>Clone this repository<H5>
+'''
+git clone https://github.com/MurugeshMarvel/Haar_classifier_training.git
+'''
+</li>
+</li>
 
 
