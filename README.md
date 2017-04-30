@@ -19,8 +19,9 @@
 <p> <a href="http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html">Guide to Install OpenCV></a></p>
 <li><H5>Clone this repository<H5>
 </li>
+</ol>
 ```
 git clone https://github.com/MurugeshMarvel/Haar_classifier_training.git
 ```
-</ol>
+
 
