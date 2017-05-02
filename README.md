@@ -15,15 +15,15 @@
 1. ##### Install OpenCV
    [Guide to Install OpenCV](http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html)
 2. ##### Clone this repository
-```bash
-git clone https://github.com/MurugeshMarvel/Haar_classifier_training.git
-```
+   ```bash
+	git clone https://github.com/MurugeshMarvel/Haar_classifier_training.git
+   ```
 3. Make two folders named positive_images and negative images inside the datasets folder
-```bash
-cd datasets
-mkdir positive_images
-mkdir negative_images
-```
+   ```bash
+	cd datasets
+	mkdir positive_images
+	mkdir negative_images
+   ```
 4. Drop all the cropped positives images in the datasets/positive_images folder
    *all the images should be in the same size and the size should not exceed 100x100, for unifying*
    *the size use the mogrify tool*
