@@ -41,7 +41,7 @@
    using the following perl program and the resulted vectors of the sample images will get saved in
    the "sample_vectors" folder.
    ```bash
-	perl codes/createsamples.pl positives_images.txt negative_images.txt samples 2000\
+	perl codes/createsamples.pl positive_images.txt negative_images.txt samples 2000\
 	"opencv_createsamples -bgcolor 0 -bgthresh 0 -maxxangle 1.1\
 	-maxyangle 1.1 maxzangle 0.5 -maxidev 40 -w 30 -h 30"
    ```
@@ -49,11 +49,11 @@
    *height from 30x30 to you positive image size*
 8. Then merge all the created sample vectors into a single unified vector by the following command
    ```bash
-	python ./codes/mergevec.py -v sample_vectors/ -o unified_vector/unified_sample.vec
+	python ./codes/mergevec.py -v samples/ -o unified/unified_sample.vec
    ```
 9. After proceeding all the steps without any error, start to train the classifier using the opencv   	 framework and save the results of the training of each stages to the classifier_results folder.
    ```bash
-	opencv_traincascade -data classifier_results -vec unified_sample/unified_sample.vec -bg\
+	opencv_traincascade -data classifier -vec unified/unified_sample.vec -bg\
 	negative_images.txt -numstages 10 -minHitRate 0.99 -maxFalseAlarmRate 0.5 -numPos 1500\
 	-numNeg 800 -w 30 -h 30 -mode ALL -precalcValBufSize 1024 -precalcIdxBufSize 1024
    ```
